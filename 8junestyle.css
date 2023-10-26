@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-image: url(code1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    margin: 50px;
+    padding: 10px;
+    justify-content:space-between;
+    background-image: none;
+    
+}
+/* .brand{
+    background-image: none;
+} */
+.brand>a{
+    color: white;
+    font-weight: bolder;
+    font-size:larger;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background: fixed; */
+    
+}
+.navbar>ul>li{
+    display: inline-block;
+    margin: 0px 15px;
+
+}
+.navbar>ul>li>a:hover{
+    background-color:darkorange;
+    color: black;
+    
+}
+.navbar>ul>li>a{
+    color: white;
+    text-decoration: none;
+
+}
+.discription>h1{
+    /* text-align:center ; */
+    font-weight: bolder;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.discription{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.btn{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    
+}
+.btn>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100px;
+    padding: 7px 20px;
+    border-style: solid;
+    border-radius: 2px;
+}
+.btn>a:hover{
+    color: blueviolet;
+}
+.sub-btn{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+.sub-btn>a{
+    text-decoration: none;
+    color: black;
+    background-color: azure;
+    font-weight: 100px;
+    padding: 9px 29px;
+    border-radius: 2px;
+}
+.sub-btn>a:hover{
+    color: blueviolet;
+}
