@@ -33,8 +33,8 @@ website-layout/
 
 1. Clone the Repository:
    ```bash
-   git clone https://github.com/your-username/website-layout.git
-   cd website-layout
+   git clone https://github.com/asharhere/SamplePage.git
+   cd SamplePage
    ```
 
 2. Open `index.html` in Your Browser:
